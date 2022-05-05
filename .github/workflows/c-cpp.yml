@@ -18,7 +18,7 @@ jobs:
         sudo add-apt-repository ppa:ubuntu-toolchain-r/test
         sudo apt-get update
         sudo apt-get install gcc-snapshot
-        sudo apt-get install gcc-6 g++-6
+        sudo apt-get install gcc g++
 
     - name: Build 
       run: |
